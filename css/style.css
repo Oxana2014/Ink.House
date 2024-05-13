@@ -1,0 +1,5 @@
+#content-1:target~.tab-nav>[href="#content-1"],
+#content-2:target~.tab-nav>[href="#content-2"],
+#content-3:target~.tab-nav>[href="#content-3"] {
+  color: red;
+}
