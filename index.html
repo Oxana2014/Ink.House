@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -86,7 +86,7 @@
         .tab-content {
           display: none;
         }
-      
+
         .tab-content:target {
           display: block;
         }
@@ -94,17 +94,276 @@
 
       <section class="catalog">
         <div class="catalog__heading">
-            <h2 class="catalog__title">Репродукции</h2>
-            <nav class="tab-nav">
-                <a href="france" class="tab-link">Франция</a>
-<a href="germany" class="tab-link">Германия</a>
-<a href="england" class="tab-link">Англия</a>
-            </nav>
+          <h2 class="catalog__title">Репродукции</h2>
+          <nav class="tab-nav">
+            <a href="#france" class="tab-link">Франция</a>
+            <a href="#germany" class="tab-link">Германия</a>
+            <a href="#england" class="tab-link">Англия</a>
+          </nav>
         </div>
         <article id="france" class="catalog__works tab-content">
-            <ul class="catalog__list">
-<li class="catalog__item"></li>
-            </ul>
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/amore-hunting.jpg"
+                  alt="Обнаженный Амур целится из лука"
+                  class="item__img"
+                />
+                <p class="item__author">Марсель Руссо</p>
+                <h3 class="item__title">Охота Амура</h3>
+                <p class="item__descr">Холст, масло (50х80)</p>
+                <p class="item__price">14 500 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/dame-and-dog.jpg"
+                  alt="Женщина в оранжевом костюме и маленькая рыжая собачка"
+                  class="item__img"
+                />
+                <p class="item__author">Анри Селин</p>
+                <h3 class="item__title">Дама с собачкой</h3>
+                <p class="item__descr">Акрил, бумага (50х80)</p>
+                <p class="item__price">16 500 руб</p>
+                <button class="btn catalog__btn">>В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/procedure.jpg"
+                  alt="Врач осматривает перевязанную голову больного"
+                  class="item__img"
+                />
+                <p class="item__author">Франсуа Дюпон</p>
+                <h3 class="item__title">Процедура</h3>
+                <p class="item__descr">Цветная литография (40х60)</p>
+                <p class="item__price">20 000 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/rose.jpg"
+                  alt="Дама в длинном платье сидит на лавочке и держит розу в зубах"
+                  class="item__img"
+                />
+                <p class="item__author">Луи Детуш</p>
+                <h3 class="item__title">Роза</h3>
+                <p class="item__descr">Бумага, акрил (50х80)</p>
+                <p class="item__price">12 000 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/birds-eating.jpg"
+                  alt="Две большие и семь маленьких птиц собрались вокруг тарелки с красными ягодами"
+                  class="item__img"
+                />
+                <p class="item__author">Франсуа Дюпон</p>
+                <h3 class="item__title">Птичья трапеза</h3>
+                <p class="item__descr">Цветная литография (40х60)</p>
+                <p class="item__price">22 500 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/scenery-with-fish.jpg"
+                  alt="Рыбку выбросило на берег из моря"
+                  class="item__img"
+                />
+                <p class="item__author">Пьер Моранж</p>
+                <h3 class="item__title">Пейзаж с рыбой</h3>
+                <p class="item__descr">Цветная литография (40х60)</p>
+                <p class="item__price">20 000 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <article id="germany" class="catalog__works tab-content">
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/above-city.jpg"
+                  alt="Женщина стоит на крыше к нам спиной и смотрит на город внизу"
+                  class="item__img"
+                />
+                <p class="item__author">Курт Вернер</p>
+                <h3 class="item__title">Над городом</h3>
+                <p class="item__descr">Цветная литография (40х60)</p>
+                <p class="item__price">16 000 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/chicks.jpg"
+                  alt="Куропатка с птенцами в лесу"
+                  class="item__img"
+                />
+                <p class="item__author">Макс Рихтер</p>
+                <h3 class="item__title">Птенцы</h3>
+                <p class="item__descr">Холст, масло (50х80)</p>
+                <p class="item__price">14 500 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/among-leaves.jpg"
+                  alt="Аист на фоне куста"
+                  class="item__img"
+                />
+                <p class="item__author">Мартин Майер</p>
+                <h3 class="item__title">Среди листьев</h3>
+                <p class="item__descr">Цветная литография (40х60)</p>
+                <p class="item__price">20 000 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/bright-bird.jpg"
+                  alt="Разноцветный маленький дятел сидит на ветке"
+                  class="item__img"
+                />
+                <p class="item__author">Герман Беккер</p>
+                <h3 class="item__title">Яркая птица</h3>
+                <p class="item__descr">Цветная литография (40х60)</p>
+                <p class="item__price">13 000 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/woodpeckers.jpg"
+                  alt="Два больших дятда, черно-белый и красный, сидят на стволе дерева"
+                  class="item__img"
+                />
+                <p class="item__author">Вульф Бауэр</p>
+                <h3 class="item__title">Дятлы</h3>
+                <p class="item__descr">Бумага, акрил (50х80)</p>
+                <p class="item__price">20 000 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/big-waters.jpg"
+                  alt="Из полукруглого окна видна лестница"
+                  class="item__img"
+                />
+                <p class="item__author">Вальтер Хартманн</p>
+                <h3 class="item__title">Большие воды</h3>
+                <p class="item__descr">Бумага, акрил (50х80)</p>
+                <p class="item__price">23 000 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <article id="england" class="catalog__works tab-content">
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/wild-animal.jpg"
+                  alt="Коричневая лосиха на песке"
+                  class="item__img"
+                />
+                <p class="item__author">Пол Смит</p>
+                <h3 class="item__title">Дикий зверь</h3>
+                <p class="item__descr">Акварель, бумага (50х80)</p>
+                <p class="item__price">19 500 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/rocky-coast.jpg"
+                  alt="Крутой берег у залива"
+                  class="item__img"
+                />
+                <p class="item__author">Джон Уайт</p>
+                <h3 class="item__title">Скалистый берег</h3>
+                <p class="item__descr">Цветная литография (40х60)</p>
+                <p class="item__price">17 500 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/river-and-mountains.jpg"
+                  alt="Река течет между гор"
+                  class="item__img"
+                />
+                <p class="item__author">Джим Уотсон</p>
+                <h3 class="item__title">Река и горы</h3>
+                <p class="item__descr">Акварель, бумага (50х80)</p>
+                <p class="item__price">20 500 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/white-parrot.jpg"
+                  alt="Большой белый попугай с разноцветным хохолком"
+                  class="item__img"
+                />
+                <p class="item__author">Юджин Зиллион</p>
+                <h3 class="item__title">Белый попугай</h3>
+                <p class="item__descr">Цветная литография (40х60)</p>
+                <p class="item__price">15 500 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/night-fish.jpg"
+                  alt="Разноцветная рыба на черном фоне"
+                  class="item__img"
+                />
+                <p class="item__author">Эрик Гиллман</p>
+                <h3 class="item__title">Ночная рыба</h3>
+                <p class="item__descr">Бумага, акрил (50х80)</p>
+                <p class="item__price">12 500 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="item__card">
+                <img
+                  src="img/red-cat.jpg"
+                  alt="Рыжий кот сидит на земле"
+                  class="item__img"
+                />
+                <p class="item__author">Альфред Барр</p>
+                <h3 class="item__title">Рыжий кот</h3>
+                <p class="item__descr">Цветная литография (40х60)</p>
+                <p class="item__price">21 000 руб</p>
+                <button class="btn catalog__btn">В корзину</button>
+              </div>
+            </li>
+          </ul>
         </article>
       </section>
     </main>
