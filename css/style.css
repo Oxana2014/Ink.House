@@ -4,36 +4,15 @@
   color: red;
 } */
 
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+
 a {
   color: inherit;
   text-decoration: none;
 }
-img {
-  display: block;
-  max-width: 100%;
-}
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  padding: 0;
-  margin: 0;
-}
+
+
 
 :root {
-  --font-family1: 'Raleway', sans-serif;
   --color-white : #fff;
   --color-dark-green: #376B44;
   --color-medium-green: #598D66;
@@ -49,18 +28,166 @@ p {
 }
 
 @font-face {
-  font-family: var(--font-family1);
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/Raleway-Bold.woff2') format('woff2');
+  src: url("../fonts/Raleway-Bold.woff2") format("woff2");
+
+  font-optical-sizing: auto;
+  font-display: swap;
 }
 @font-face {
-  font-family: var(--font-family1);
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/Raleway-Medium.woff2') format('woff2');
+  src: url("../fonts/Raleway-Medium.woff2") format("woff2");
+  font-optical-sizing: auto;
+  font-display: swap;
 }
 body {
-  font-family: var(--font-family1);
+  font-family: "Raleway", sans-serif;
   background-color: #E5E5E5;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--color-very-light-green);
+}
+.header__container {
+  max-width: 1110px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 38px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--color-medium-green);
+
+font-weight: 700;
+font-size: 20px;
+}
+.logo__star {
+  margin-right: 8px;
+}
+.header__nav {
+  display: flex;
+ 
+  font-weight: 500;
+font-size: 20px;
+color: var(--color-dark);
+}
+.header__nav a:not(:last-child) {
+  margin-right: 60px;
+}
+.header__nav a:first-child {
+  margin-right: 58px;
+}
+.header__cart {
+  display: block;
+ margin-top: 3px;
+}
+.hero {
+}
+.hero__container {
+}
+.hero__right {
+}
+.hero__title {
+}
+.h1--green {
+}
+.hero__descr {
+}
+.btn {
+}
+.primary-btn {
+}
+.catalog {
+}
+.catalog__heading {
+}
+.catalog__title {
+}
+.tab-nav {
+}
+.tab-link {
+}
+.catalog__works {
+}
+.tab-content {
+}
+.catalog__list {
+}
+.catalog__item {
+}
+.item__card {
+}
+.item__img {
+}
+.item__author {
+}
+.item__title {
+}
+.item__descr {
+}
+.item__price {
+}
+.catalog__btn {
+}
+.promo {
+}
+.promo__title {
+}
+.logo-promo {
+}
+.promo__h2 {
+}
+.promo__text {
+}
+.promo__btn {
+}
+.about {
+}
+.about__img {
+}
+.about__right {
+}
+.about__title {
+}
+.about__descr {
+}
+.about__gallery {
+}
+.footer {
+}
+.footer__company {
+}
+.footer__contacts {
+}
+.footer-contacts__phone {
+}
+.footer-contacts__descr {
+}
+.footer__links {
+}
+.footer__pictures {
+}
+.footer-link {
+}
+.link-title {
+}
+.footer__new {
+}
+.footer__about-us {
+}
+.footer__right {
+}
+.social {
+}
+.footer-icon {
+}
+.copyright {
 }
