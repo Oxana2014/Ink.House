@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="css/reset-lamkov.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Ink. House</title>
+    
+      <style>
+        .tab-content {
+          display: none;
+        }
+
+        .tab-content:target {
+          display: block;
+        }
+      </style>
   </head>
   <body>
     <header class="header">
@@ -68,10 +78,9 @@
     <main>
       <section class="hero">
         <div class="container hero__container">
-          <img
-            src="img/hero-bird.png"
-            alt="Beautiful gray and brown bird sitting on the branch"
-          />
+          <div class="hero__image">
+  
+          </div>
           <div class="hero__right">
             <h1 class="hero__title">
               Реплики картин от <span class="h1--green"> Ink. House</span>
@@ -85,21 +94,13 @@
         </div>
       </section>
 
-      <!-- <style>
-        .tab-content {
-          display: none;
-        }
-
-        .tab-content:target {
-          display: block;
-        }
-      </style> -->
 
       <section class="catalog">
+        <div class="container">
         <div class="catalog__heading">
-          <h2 class="catalog__title">Репродукции</h2>
+          <h2 class="catalog__h2">Репродукции</h2>
           <nav class="tab-nav">
-            <a href="#france" class="tab-link">Франция</a>
+            <a href="#france" class="tab-link ">Франция</a>
             <a href="#germany" class="tab-link">Германия</a>
             <a href="#england" class="tab-link">Англия</a>
           </nav>
@@ -117,7 +118,7 @@
                 <h3 class="item__title">Охота Амура</h3>
                 <p class="item__descr">Холст, масло (50х80)</p>
                 <p class="item__price">14 500 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -131,7 +132,7 @@
                 <h3 class="item__title">Дама с собачкой</h3>
                 <p class="item__descr">Акрил, бумага (50х80)</p>
                 <p class="item__price">16 500 руб</p>
-                <button class="btn catalog__btn">>В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -145,7 +146,7 @@
                 <h3 class="item__title">Процедура</h3>
                 <p class="item__descr">Цветная литография (40х60)</p>
                 <p class="item__price">20 000 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -159,7 +160,7 @@
                 <h3 class="item__title">Роза</h3>
                 <p class="item__descr">Бумага, акрил (50х80)</p>
                 <p class="item__price">12 000 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -173,7 +174,7 @@
                 <h3 class="item__title">Птичья трапеза</h3>
                 <p class="item__descr">Цветная литография (40х60)</p>
                 <p class="item__price">22 500 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -187,7 +188,7 @@
                 <h3 class="item__title">Пейзаж с рыбой</h3>
                 <p class="item__descr">Цветная литография (40х60)</p>
                 <p class="item__price">20 000 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
           </ul>
@@ -205,7 +206,7 @@
                 <h3 class="item__title">Над городом</h3>
                 <p class="item__descr">Цветная литография (40х60)</p>
                 <p class="item__price">16 000 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -219,7 +220,7 @@
                 <h3 class="item__title">Птенцы</h3>
                 <p class="item__descr">Холст, масло (50х80)</p>
                 <p class="item__price">14 500 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn  primary-btn catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -233,7 +234,7 @@
                 <h3 class="item__title">Среди листьев</h3>
                 <p class="item__descr">Цветная литография (40х60)</p>
                 <p class="item__price">20 000 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -247,7 +248,7 @@
                 <h3 class="item__title">Яркая птица</h3>
                 <p class="item__descr">Цветная литография (40х60)</p>
                 <p class="item__price">13 000 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -261,7 +262,7 @@
                 <h3 class="item__title">Дятлы</h3>
                 <p class="item__descr">Бумага, акрил (50х80)</p>
                 <p class="item__price">20 000 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -275,7 +276,7 @@
                 <h3 class="item__title">Большие воды</h3>
                 <p class="item__descr">Бумага, акрил (50х80)</p>
                 <p class="item__price">23 000 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
           </ul>
@@ -293,7 +294,7 @@
                 <h3 class="item__title">Дикий зверь</h3>
                 <p class="item__descr">Акварель, бумага (50х80)</p>
                 <p class="item__price">19 500 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -307,7 +308,7 @@
                 <h3 class="item__title">Скалистый берег</h3>
                 <p class="item__descr">Цветная литография (40х60)</p>
                 <p class="item__price">17 500 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn  primary-btn catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -321,7 +322,7 @@
                 <h3 class="item__title">Река и горы</h3>
                 <p class="item__descr">Акварель, бумага (50х80)</p>
                 <p class="item__price">20 500 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -335,7 +336,7 @@
                 <h3 class="item__title">Белый попугай</h3>
                 <p class="item__descr">Цветная литография (40х60)</p>
                 <p class="item__price">15 500 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -349,7 +350,7 @@
                 <h3 class="item__title">Ночная рыба</h3>
                 <p class="item__descr">Бумага, акрил (50х80)</p>
                 <p class="item__price">12 500 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
             <li class="catalog__item">
@@ -363,11 +364,12 @@
                 <h3 class="item__title">Рыжий кот</h3>
                 <p class="item__descr">Цветная литография (40х60)</p>
                 <p class="item__price">21 000 руб</p>
-                <button class="btn catalog__btn">В корзину</button>
+                <button class="btn primary-btn  catalog__btn">В корзину</button>
               </div>
             </li>
           </ul>
         </article>
+      </div>
       </section>
       <section class="promo">
         <div class="container">
