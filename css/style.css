@@ -243,7 +243,7 @@ margin-bottom: 70px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; 
- 
+ margin-bottom: 70px;
 }
 
 
@@ -287,16 +287,36 @@ margin-bottom: 70px;
   border:none;
 }
 .about {
+  margin-bottom: 70px;
+}
+.about-container {
+  display: flex;
+
 }
 .about__img {
+  min-width:445px;
+  margin-right: 30px;
 }
 .about__right {
+  padding-top: 124px;
 }
 .about__title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-dark);
+  margin-bottom: 20px;
 }
 .about__descr {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-dark);
+  margin-bottom: 20px;
 }
 .about__gallery {
+  display: flex;
+  gap: 30px;
 }
 .footer {
 }
