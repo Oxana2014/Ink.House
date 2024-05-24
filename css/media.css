@@ -1,0 +1,45 @@
+@media screen and (max-width: 890px) {
+  .container {
+    margin-inline: 39px;
+  }
+  .header__nav {
+    font-size: 18px;
+  }
+  .hero__title {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .catalog__h2 {
+    font-size: 30px;
+  }
+  .catalog__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .promo__h2 {
+    font-size: 30px;
+  }
+  .promo__title {
+    margin-bottom: 30px;
+  }
+  .promo__text {
+    max-width: 740px;
+
+    margin-bottom: 30px;
+  }
+  .about-container {
+    display: block;
+  }
+
+  .about__right {
+    padding-top: 40px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+  }
+  .footer__company {
+    display: flex;
+    justify-content: space-between;
+    min-width: 670px;
+    margin-bottom: 30px;
+  }
+}

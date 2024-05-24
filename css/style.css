@@ -83,10 +83,12 @@ font-size: 20px;
   margin-right: 8px;
 }
 .header__nav {
+
   display: flex;
- 
+ align-items: center;
   font-weight: 500;
 font-size: 20px;
+line-height: 1.15;
 color: var(--color-dark);
 }
 .header__nav a:not(:last-child) {
@@ -344,12 +346,14 @@ align-items: center;
 }
 .footer__company {
 
-  min-width: 170px;
+  width: 170px;
 }
 .footer__logo {
   margin-bottom: 35px;
 }
 .footer__contacts {
+  
+  width: 170px;
 }
 .footer-contacts__phone {
   color: var(--color-dark);
