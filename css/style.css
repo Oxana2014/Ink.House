@@ -95,9 +95,16 @@ color: var(--color-dark);
 .header__nav a:first-child {
   margin-right: 58px;
 }
+.header__nav a:hover {
+color: var(--color-medium-green);
+}
 .header__cart {
   display: block;
  margin-top: 3px;
+ color: var(--color-dark)
+}
+.header__cart svg {
+  stroke: currentColor;
 }
 .hero {
   margin-bottom: 70px;
@@ -106,6 +113,7 @@ color: var(--color-dark);
   display: grid;
 grid-template-columns: repeat(2, 1fr);
 column-gap: 30px;
+
 }
 .hero__image {
 background-image: url("../img/hero-bird.png");
@@ -146,6 +154,10 @@ background-size: contain;
   background-color: transparent;
   border: 1px solid var(--color-medium-green);
   color: var(--color-medium-green);
+}
+.primary-btn:hover {
+background-color: var(--color-medium-green);
+color: var(--color-light);
 }
 .catalog {
 }
@@ -286,16 +298,20 @@ margin-bottom: 70px;
   padding: 21px 60px;
   border:none;
 }
+.promo__btn:hover {
+  background-color: var(--color-dark-sand);
+}
 .about {
   margin-bottom: 70px;
 }
 .about-container {
-  display: flex;
-
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 30px;
+align-items: center;
 }
 .about__img {
-  min-width:445px;
-  margin-right: 30px;
+
 }
 .about__right {
   padding-top: 124px;
@@ -341,7 +357,9 @@ margin-bottom: 70px;
   line-height: 1.15;
   font-weight: 500;
   margin-bottom: 8px;
-
+}
+.footer-contacts__phone:hover {
+  color: var(--color-medium-green);
 }
 .footer-contacts__descr {
   color: var(--color-gray-green);
@@ -363,6 +381,9 @@ margin-bottom: 70px;
   line-height: 1.5;
   font-weight: 500;
 }
+.footer-link:hover {
+  color: var(--color-dark-green);
+}
 .footer-link:not(:last-child) {
     margin-bottom: 6px;
 }
@@ -372,6 +393,11 @@ margin-bottom: 70px;
   line-height: 1.15;
   font-weight: 500;
 }
+.footer-link.link-title:hover {
+  color: var(--color-medium-green);
+}
+
+
 .footer__new {
   margin-right: 60px;
 }
@@ -383,6 +409,15 @@ margin-bottom: 70px;
 .social {
   display: flex;
   margin-bottom: 10px;
+}
+.footer-icon {
+  color: var(--color-dark);
+}
+.footer-icon:hover {
+color: var(--color-dark-green);
+}
+.footer-icon svg {
+  fill: currentColor;
 }
 .footer-icon:not(:last-child) {
 margin-right: 30px;
