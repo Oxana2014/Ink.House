@@ -195,16 +195,16 @@ margin-bottom: 70px;
 }
 .tab-content {
 }
-.tab-link:hover, .tab-link:active {
+.tab-link:hover, .tab-link.tab-link--active {
   color: var(--color-light);
   background-color: var(--color-dark-green);
 }
-/* 
-#france:target ~ .tab-nav>[href="#france"],
-#germany:target ~ .tab-nav>[href="#germany"],
-#england:target ~ .tab-nav>[href="#england"] {
-  color: red;
-} */
+.tab-content {
+  display: none;
+}
+.tab-content.tab-content--active {
+  display: block;
+}
 .catalog__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
