@@ -1,6 +1,6 @@
 @media screen and (max-width: 890px) {
   .container {
-    margin-inline: 39px;
+    padding-inline: 39px;
   }
   .header__nav {
     font-size: 18px;
@@ -40,6 +40,14 @@
     display: flex;
     justify-content: space-between;
     min-width: 670px;
+    width: 100%;
+
     margin-bottom: 30px;
+  }
+  .footer__pictures {
+    margin-right: 60px;
+  }
+  .footer__right {
+margin-right: 38px;
   }
 }

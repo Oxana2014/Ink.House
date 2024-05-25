@@ -61,8 +61,8 @@ body {
   background-color: var(--color-very-light-green);
 }
 .container {
-    max-width: 1140px;
-  padding-inline: 15px;
+    max-width: 1188px;
+  padding-inline: 39px;
     margin-inline: auto;
 }
 .header__container {
