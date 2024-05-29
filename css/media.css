@@ -51,3 +51,28 @@
 margin-right: 38px;
   }
 }
+@media screen and (max-width: 768px) {
+  .container {
+    padding-inline: 33px;
+  }
+  .header__container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 16px;
+    
+  }
+
+  .header__line {
+    display: block;
+    margin-block: 16px;
+  }
+  .header__nav {
+    padding-top: 0;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .header__nav a:nth-child(-n+2) {
+    margin-right: 0px;
+  }
+
+}

@@ -82,8 +82,14 @@ font-size: 20px;
 .logo__star {
   margin-right: 8px;
 }
+.header__line {
+  background-color: #C3D1C6;
+  height: 1px;
+  width: 100%;
+  display: none;
+}
 .header__nav {
-
+  padding-top: 3px;
   display: flex;
  align-items: center;
   font-weight: 500;
